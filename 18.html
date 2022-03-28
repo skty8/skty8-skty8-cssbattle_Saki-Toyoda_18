@@ -1,0 +1,105 @@
+<div class="container">
+    <div class="item1 orange"></div>
+    <div class="item2 cream"></div>
+    <div class="item3 orange"></div>
+    <div class="item4 cream"></div>
+    <div class="item5 cream"></div>
+    <div class="item6 orange"></div>
+    <div class="item7 cream"></div>
+    <div class="item8 orange"></div>
+    <div class="item9 orange"></div>
+    <div class="item10 cream"></div>
+    <div class="item11 orange"></div>
+    <div class="item12 cream"></div>
+
+</div>
+<style>
+    body {
+        background: #5C434C;
+        margin: 0;
+    }
+
+    .container {
+        display: grid;
+        grid-template-columns: 80px 80px 80px 80px;
+        grid-template-rows: 80px 80px 80px;
+        gap: 20px;
+        width: 400px;
+        height: 300px;
+        margin: 10px;
+    }
+
+    div[class*="item"] {
+        border-radius: 100% 0 0 0;
+        width: 80px;
+        height: 80px;
+    }
+
+    .orange {
+        background: #F09462;
+    }
+
+    .cream {
+        background: #F5D6B4;
+    }
+
+    .item1 {
+        grid-column: 1;
+        grid-row: 1;
+    }
+
+    .item2 {
+        grid-column: 2;
+        grid-row: 1;
+    }
+
+    .item3 {
+        grid-column: 3;
+        grid-row: 1;
+    }
+
+    .item4 {
+        grid-column: 4;
+        grid-row: 1;
+    }
+
+    .item5 {
+        grid-column: 1;
+        grid-row: 2;
+    }
+
+    .item6 {
+        grid-column: 2;
+        grid-row: 2;
+    }
+
+    .item7 {
+        grid-column: 3;
+        grid-row: 2;
+    }
+
+    .item8 {
+        grid-column: 4;
+        grid-row: 2;
+    }
+
+    .item9 {
+        grid-column: 1;
+        grid-row: 3;
+    }
+
+    .item10 {
+        grid-column: 2;
+        grid-row: 3;
+    }
+
+    .item11 {
+        grid-column: 3;
+        grid-row: 3;
+    }
+
+    .item12 {
+        grid-column: 4;
+        grid-row: 3;
+    }
+</style>
